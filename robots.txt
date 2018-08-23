@@ -1,0 +1,25 @@
+#Googlebot
+User-agent: Googlebot
+Allow: *.css*
+Allow: *.js*
+
+# Global
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Allow: /wp-includes/js/
+Allow: /wp-content/plugins/
+Allow: /wp-content/themes/
+Allow: /wp-content/cache/
+Disallow: /xmlrpc.php
+Disallow: /tag/
+Disallow: /page/
+Disallow: /uploads/
+Disallow: /2010/
+Disallow: /2011/
+Disallow: /2012/
+Disallow: /2013/
+Disallow: /2014/
+Disallow: /2015/
+Disallow: /2016/
+Sitemap: http://waterwaystownship.com/sitemap.xml

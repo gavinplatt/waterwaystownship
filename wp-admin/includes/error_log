@@ -1,0 +1,3 @@
+[02-Mar-2016 09:14:49 CST6CDT] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/waterwaystown/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[25-Aug-2016 22:51:45 CST6CDT] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/waterwaystown/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[12-Jan-2017 17:21:20 CST6CDT] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/waterwaystown/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17

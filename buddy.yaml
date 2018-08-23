@@ -1,0 +1,17 @@
+### BASIC CLOUDWAYS PRODUCTION SETUP ###
+
+- pipeline: "Production"
+  trigger_mode: "MANUAL"
+  ref_name: "master"
+  target_site_url: "https://waterwaystownship.com"
+  actions:
+  - action: "Upload files to Cloudways"
+    type: "SFTP"
+    input_type: "SCM_REPOSITORY"
+    local_path: "/"
+    remote_path: "/applications/vkmmggeupf/public_html"
+    port: "22"
+    host: "142.93.6.241"
+    login: "master_frhdxbyzhs"
+    password: "6hXQ3mFE"
+    authentication_mode: "PASS"
